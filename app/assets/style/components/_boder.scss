@@ -1,0 +1,16 @@
+.custom-boder {
+    border-left: 2px solid $white;
+    padding-bottom: 110px;
+    @include media-breakpoint-down(sm) {
+        padding-bottom: 0;
+        margin-bottom: 80px;
+    }
+}
+
+.border-1 {
+    border: 1px solid #DADFE3;
+}
+
+.border-2 {
+    border: 2px solid #DADFE3;
+}

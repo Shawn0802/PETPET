@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-md sticky-top shadow-sm bg-white py-md-0 px-md-0 ">
+    <div class="container-fluid container-md">
+            <h1>
+                <a class="navbar__logo mt-md-2 mt-1" href="index.html">PETPET</a>
+            </h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars fa-2x text-secondary py-2"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto " id="navbar">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="stay.html">預約服務</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reservation.html">立即預約</a>
+                    </li>
+                    <% if (current =='member'){%>
+                        <%- include('member.ejs') %>
+                        <% }else{ %>
+                        <%- include('login.ejs') %>
+                      <% }%>
+                </ul>
+              </div>
+        </div>
+</nav>
+

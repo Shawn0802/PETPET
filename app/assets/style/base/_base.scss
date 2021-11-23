@@ -1,0 +1,20 @@
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  a {
+    display: block;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  ul,ol {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-bottom: 0;
+  }

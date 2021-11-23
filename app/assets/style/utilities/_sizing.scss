@@ -1,8 +1,0 @@
-
-
-.custom-min-vh-100 { //滿版設計
-  min-height: calc(100vh - 71px) ; 
-// 設一個class叫min-vh-100，設一個防火牆min-hight最小高度，100vh就是100%的可視螢幕，撐到最高，然後去減59px，達到設計搞需要的height:736px;
-// 我會改成71是因為59會有滾動可以滾
-}
-
